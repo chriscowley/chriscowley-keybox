@@ -1,0 +1,16 @@
+{
+  "name": "chriscowley-keybox",
+  "version": "0.1.0",
+  "author": "chriscowley",
+  "summary": "Installs KeyBox a web-based SSH console",
+  "license": "Apache 2.0",
+  "source": "https://github.com/chriscowley/chriscowley-keybox.git",
+  "project_page": "https://github.com/chriscowley/chriscowley-keybox",
+  "issues_url": "https://github.com/chriscowley/chriscowley-keybox/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ]
+}
