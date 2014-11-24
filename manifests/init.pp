@@ -8,8 +8,13 @@
 #   Explanation of what this parameter affects and what it defaults to.
 #
 class keybox (
-  $package_name = $::keybox::params::package_name,
   $service_name = $::keybox::params::service_name,
+  $user         = $::keybox::params::user,
+  $group        = $::keybox::params::group,
+  $installdir   = $::keybox::params::installdir,
+  $url          = $::keybox::params::url,
+  $manage_java  = $::keybox::params::manage_java,
+  $initsystem   = $::keybox::params::initsystem,
 ) inherits ::keybox::params {
 
   # validate parameters here
